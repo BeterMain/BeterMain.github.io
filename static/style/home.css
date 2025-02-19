@@ -25,6 +25,11 @@
   font-size: medium;
 }
 
+.coding-projects {
+  text-align: center;
+  display: inline-block;
+}
+
 #logo {
   margin: 25px;
   width: 50px;

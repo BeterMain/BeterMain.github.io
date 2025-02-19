@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../static/home.css" />
+    <link rel="stylesheet" href="../static/style/home.css" />
   </head>
   <body>
     <div class="header">
-      <button>Home</button>
-      <button>Resume</button>
+      <a href="../static/Justin Resume.pdf" download><button>Resume</button></a>
     </div>
     <div class="content">
       <div class="top-info">
@@ -27,37 +26,72 @@
         </p>
       </div>
       <div class="projects">
-        <h3>Game Projects</h3>
+        <div class="game-projects">
+          <h3>Game Projects</h3>
 
-        <a href="https://betermain.itch.io/speed-saver">
-          <img
-            id="project-cover"
-            src="../static/speed-saver.png"
-            alt="cover image of a game called Speed Saver"
-          />
-        </a>
-        <a href="https://betermain.itch.io/the-pirate-platformer">
-          <img
-            id="project-cover"
-            src="../static/pirate-platformer.png"
-            alt="cover image of a game called The Pirate Platformer"
-          />
-        </a>
-        <a href="https://betermain.itch.io/space-escape">
-          <img
-            id="project-cover"
-            src="../static/space-escape.png"
-            alt="cover image of a game called Space Escape"
-          />
-        </a>
-
-        <h3>Coding Projects</h3>
-        <a href="https://github.com/BeterMain/gacha-game">
-          <p>Video Game (Python)</p>
-        </a>
-        <a href="https://github.com/BeterMain/cs310-teamproject-fa23">
-          <p>Clock-In CLock-Out System (Java)</p>
-        </a>
+          <a href="https://betermain.itch.io/speed-saver">
+            <img
+              id="project-cover"
+              src="../static/speed-saver.png"
+              alt="cover image of a game called Speed Saver"
+            />
+          </a>
+          <a href="https://betermain.itch.io/the-pirate-platformer">
+            <img
+              id="project-cover"
+              src="../static/pirate-platformer.png"
+              alt="cover image of a game called The Pirate Platformer"
+            />
+          </a>
+          <a href="https://betermain.itch.io/space-escape">
+            <img
+              id="project-cover"
+              src="../static/space-escape.png"
+              alt="cover image of a game called Space Escape"
+            />
+          </a>
+        </div>
+        <div class="coding-projects">
+          <h3>Coding Projects</h3>
+          <table>
+            <thead>
+              <th>Video Game (Python)</th>
+              <th>Clock-In Clock-Out System (Java)</th>
+              <th>Expense Tracker (Python/Flask/MySQL)</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://github.com/BeterMain/gacha-game">
+                    <img
+                      id="project-cover"
+                      src="../static/Video-Game-Transparent-Image.png"
+                      alt="image of a controller"
+                    />
+                  </a>
+                </td>
+                <td>
+                  <a href="https://github.com/BeterMain/cs310-teamproject-fa23">
+                    <img
+                      id="project-cover"
+                      src="../static/notepad.png"
+                      alt="notepad with pencil"
+                    />
+                  </a>
+                </td>
+                <td>
+                  <a href="https://github.com/BeterMain/cs310-teamproject-fa23">
+                    <img
+                      id="project-cover"
+                      src="../static/schedule-icon.jpg"
+                      alt="picture of expense tracker app"
+                    />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
       <div class="bottom-info">
         <h3>Contact Information</h3>
