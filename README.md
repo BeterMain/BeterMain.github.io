@@ -7,7 +7,7 @@ This is a personal portfolio website for Justin Toliver, showcasing game develop
 ### Files
 
 - **index.html**: Redirects to the main portfolio page.
-- **static/home.css**: Contains the CSS styles for the portfolio.
+- **static/style/home.css**: Contains the CSS styles for the portfolio.
 - **templates/home.html**: The main portfolio page with project details and contact information.
 
 ## Usage
@@ -15,9 +15,13 @@ This is a personal portfolio website for Justin Toliver, showcasing game develop
 1. Open `index.html` in a web browser to be redirected to the main portfolio page.
 2. The main portfolio page is located at `templates/home.html`.
 
+**Or**
+
+1. Go to https://betermain.github.io/
+
 ## Styles
 
-The CSS styles are defined in `static/home.css` and include styles for the header, content, projects, and contact information sections.
+The CSS styles are defined in `static/style/home.css` and include styles for the header, content, projects, and contact information sections.
 
 ## Contact Information
 
@@ -37,6 +41,7 @@ The CSS styles are defined in `static/home.css` and include styles for the heade
 
 - [Video Game (Python)](https://github.com/BeterMain/gacha-game)
 - [Clock-In Clock-Out System (Java)](https://github.com/BeterMain/cs310-teamproject-fa23)
+- [Expense Tracker (Python/Flask/MySQL)](https://github.com/BeterMain/ExpenseTracker)
 
 ## Social Links
 
