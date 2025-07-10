@@ -1,8 +1,11 @@
-# Portfolio Website
+# AWS/Github.io Portfolio Website
 
 This is a personal portfolio website for Justin Toliver, showcasing game development and backend software engineering projects. The website is hosted through github.io, and through **AWS** using S3 buckets. 
 
 ## Project Structure
+
+### AWS Diagram
+![diagram of AWS architecure](architecture-diagram.png)
 
 ### Files
 
