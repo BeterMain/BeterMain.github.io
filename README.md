@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is a personal portfolio website for Justin Toliver, showcasing game development and backend software engineering projects.
+This is a personal portfolio website for Justin Toliver, showcasing game development and backend software engineering projects. The website is hosted through github.io, and through **AWS** using S3 buckets. 
 
 ## Project Structure
 
@@ -18,6 +18,10 @@ This is a personal portfolio website for Justin Toliver, showcasing game develop
 **Or**
 
 1. Go to https://betermain.github.io/
+
+**Or**
+
+1. Go to http://justin-practice-portfolio-site.s3-website-us-east-1.amazonaws.com/templates/home.html
 
 ## Styles
 
